@@ -1,10 +1,27 @@
-
 body {
-  font-family: sans-serif;
+    font-family: sans-serif;
+    background-image: url(astro-astronomy-background-956999.jpg);
+    color: MediumSeaGreen; 
 } 
-h1 {
-  color: SlateBlue;
+table, th, td {
+    border: 2px solid fuchsia;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
 }
-ul {
-  color: rgb(120, 120, 120);
+nav {
+    background-color: black;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 10px;
+    color: white;
+    display: block;
+    text-decoration: none;
 }
